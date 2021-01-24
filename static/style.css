@@ -1,8 +1,9 @@
-.conatiner-1{
+.container-1{
     border: 1px solid black;
     text-align: center;
-    margin: 25 auto;
+    margin: 0 auto;
     width: 75%;
+    margin-top: 25px;
 }
 
 .flex-box-container-1{
@@ -17,5 +18,27 @@
     padding: 5px;
     display: flex;
     align-items: center;
+}
+
+.container-2{
+    border: 1px solid black !important;
+    text-align: center;
+    margin: 0 auto;
+    width: 75%;
+}
+.container-2 button{
+    margin-bottom: 10px;
+}
+.flex-box-container-2{
+    display: flex;
+    border:1px solid black;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.flex-box-container-2 img{
+    max-width: 30%;
+    margin: 10px;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.7);
 }
 
